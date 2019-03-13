@@ -1,1 +1,7 @@
-session.impersonate(usersysid);
+session.onlineImpersonate("abel.tuter");
+// or var origUser = gs.getSession().impersonate('sys_id'); 
+// or new GlideImpersonate().impersonate(your user id);
+// or gs.getSession().onlineImpersonate("<user_name>"); 
+// or gs.getSession().impersonate('xxx');
+
+//to unimpersonate use session.onlineUnimpersonate();
